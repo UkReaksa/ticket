@@ -3,7 +3,7 @@
     <Navbra/>
   </div>
 
-  <h1>Hello Guysss</h1>
+
 
   <div class="flex flex-col justify-center items-center min-h-screen bg-gray-900">
     <div class="w-[600px] bg-gray-800 text-white rounded-lg shadow-lg p-6">
