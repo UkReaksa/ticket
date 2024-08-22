@@ -3,6 +3,8 @@
     <Navbra/>
   </div>
 
+  <h1>Hello Guy</h1>
+
   <div class="flex flex-col justify-center items-center min-h-screen bg-gray-900">
     <div class="w-[600px] bg-gray-800 text-white rounded-lg shadow-lg p-6">
       <img class="w-full" src="https://cdn.marvel.com/content/1x/thorloveandthunder_lob_crd_04.jpg" alt="Thor: Love and Thunder">
