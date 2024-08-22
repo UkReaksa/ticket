@@ -10,7 +10,21 @@ const router = createRouter({
       name: "home",
       component: HomeView,
     },
-  
+    {
+      path: "/Ticket",
+      name: "Ticket",
+      component: () => import("../components/Ticket.vue"),
+    },
+    {
+      path: "/Contach",
+      name: "Contach",
+      component: () => import("../components/Contach.vue"),
+    },
+    {
+      path: "/Moviename",
+      name: "Moviename",
+      component: () => import("../components/Moviename.vue"),
+    },
   ],
 });
 

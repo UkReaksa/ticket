@@ -2,10 +2,10 @@
   <nav class="bg-slate-800 shadow-lg md:h-[80px]">
     <div class="flex justify-between items-center ">
       <!-- Logo or Brand Name -->
-      <div class="md:mx-10">
+      <div class="md:mx-10 my-[-50px]">
         <img
-          class="w-48 my-4"
-          src="https://www.btec.edu.kh/assets/img/logo/btec_logo_new.png"
+          class="w-40 my-4"
+          src="../assets/Untitled-1.png"
           alt="Logo"
         />
       </div>
@@ -13,7 +13,7 @@
       <!-- Menu Icon for small screens -->
       <button
         @click="toggleMenu"
-        class="sm:hidden text-white focus:outline-none"
+        class="sm:hidden text-white focus:outline-none mr-5 "
         aria-label="Toggle menu"
       >
         <svg
@@ -40,7 +40,7 @@
         menuOpen ? 'block' : 'hidden sm:flex'
       ]"
     >
-      <router-link to="Home">
+      <router-link to="/">
         <li
           @click="setActive('Home')"
           :class="[
@@ -53,35 +53,35 @@
         </li>
       </router-link>
 
-      <router-link to="About">
+      <!-- <router-link to="Ticket">
         <li
-          @click="setActive('About')"
+          @click="setActive('Ticket')"
           :class="[
             'cursor-pointer text-white px-3 py-2 text-lg font-medium transition duration-300 transform',
             activeItem === 'About' ? 'border-b-2 border-white' : '',
             activeItem === 'About' ? 'scale-105' : 'hover:bg-slate-700'
           ]"
         >
-          Keynote Speaker
+          Buy Ticket
         </li>
-      </router-link>
+      </router-link> -->
 
-      <router-link to="Services">
+      <router-link to="Moviename">
         <li
-          @click="setActive('Services')"
+          @click="setActive('Moviename')"
           :class="[
             'cursor-pointer text-white px-3 py-2 text-lg font-medium transition duration-300 transform',
             activeItem === 'Services' ? 'border-b-2 border-white' : '',
             activeItem === 'Services' ? 'scale-105' : 'hover:bg-slate-700'
           ]"
         >
-          Services
+          Movie
         </li>
       </router-link>
 
-      <router-link to="Contact">
+      <router-link to="Contach">
         <li
-          @click="setActive('Contact')"
+          @click="setActive('Contach')"
           :class="[
             'cursor-pointer text-white px-3 py-2 text-lg font-medium transition duration-300 transform',
             activeItem === 'Contact' ? 'border-b-2 border-white' : '',
